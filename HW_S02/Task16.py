@@ -8,7 +8,7 @@
 def sequence(n):
     list = []
     for i in range (1, n+1):
-        list.append(round((1+1/i)**i, 3))
+        list.append(round((1+1/i)**i, 2))
     return list
 
 def sum(list):
